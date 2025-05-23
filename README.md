@@ -126,7 +126,7 @@ The tables below summarize the BLEU scores obtained for each model across the te
 ---
 
 ## Repository Structure
-
+```
 Internship_Project/
 ├── 01_Reports/
 │   ├── Fortnightly_Reports/
@@ -166,7 +166,7 @@ Internship_Project/
 │   └── Overall_Summary_Results.csv
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## Setup and Usage (for Translation Benchmarking)
