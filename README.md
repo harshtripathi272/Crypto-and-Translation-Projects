@@ -149,14 +149,13 @@ Internship_Project/
 │   │   ├── chinese_english_translation.py
 │   │   └── hindi_english_translation.py
 │   └── Data_Preprocessing_Scripts/
-├── 05_Data/
+├── 05_DataSet/
 │   ├── Burmese_English/
-│   │   └── en-my.tmx.gz
+│   │   └── ReadMe.md
 │   ├── Chinese_English/
-│   │   └── chinese_english_dataset.jsonl
+│   │   └── ReadMe.md
 │   └── Hindi_English/
-│       ├── IITB.en-hi.en
-│       └── IITB.en-hi.hi
+│       └── ReadMe.md
 ├── 06_Results/
 │   ├── Burmese_English_Results/
 │   │   ├── burmese_english_raw_output_m2m1b.txt
