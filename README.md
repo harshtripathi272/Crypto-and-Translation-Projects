@@ -26,7 +26,7 @@ The core of this project is the comprehensive evaluation of various open-source,
 9.  [Setup and Usage (for Translation Benchmarking)](#setup-and-usage-for-translation-benchmarking)
 10. [Future Work](#future-work)
 11. [Contact](#contact)
-12. [License](#license)
+
 
 ---
 
@@ -110,7 +110,7 @@ The tables below summarize the BLEU scores obtained for each model across the te
 | Argos Translate           | 5.56       |
 | M2M100 1.2B               | 4.53       |
 | M2M100 418M               | 5.51       |
-
+| LibreaTranslate           | 6.94       | 
 **Note:** LibreTranslate showed a 0.00 BLEU score for Burmese-English and Chinese-English due to persistent `HTTP Error 400: Bad Request` from the external API instance used during testing. This indicates issues with the server or potential rate limits, not necessarily the model's inherent capability when self-hosted.
 
 ---
@@ -149,14 +149,13 @@ Internship_Project/
 │   │   ├── chinese_english_translation.py
 │   │   └── hindi_english_translation.py
 │   └── Data_Preprocessing_Scripts/
-├── 05_Data/
+├── 05_DataSet/
 │   ├── Burmese_English/
-│   │   └── en-my.tmx.gz
+│   │   └── ReadMe.md
 │   ├── Chinese_English/
-│   │   └── chinese_english_dataset.jsonl
+│   │   └── ReadMe.md
 │   └── Hindi_English/
-│       ├── IITB.en-hi.en
-│       └── IITB.en-hi.hi
+│       └── ReadMe.md
 ├── 06_Results/
 │   ├── Burmese_English_Results/
 │   │   ├── burmese_english_raw_output_m2m1b.txt
@@ -175,8 +174,8 @@ To replicate the translation benchmarking results:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[YourGitHubUsername]/[YourRepoName].git
-    cd [YourRepoName]
+    git clone https://github.com/harshtripathi272/Crypto-and-Translation-Projects.git
+    cd Crypto-and-Translation-Projects
     ```
 
 2.  **Navigate to Code Directory:**
