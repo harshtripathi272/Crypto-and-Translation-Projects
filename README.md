@@ -156,13 +156,6 @@ Internship_Project/
 │   │   └── ReadMe.md
 │   └── Hindi_English/
 │       └── ReadMe.md
-├── 06_Results/
-│   ├── Burmese_English_Results/
-│   │   ├── burmese_english_raw_output_m2m1b.txt
-│   │   └── burmese_english_bleu_scores.csv
-│   ├── Chinese_English_Results/
-│   ├── Hindi_English_Results/
-│   └── Overall_Summary_Results.csv
 ├── .gitignore
 └── README.md
 ```
