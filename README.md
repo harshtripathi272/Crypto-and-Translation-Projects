@@ -130,7 +130,7 @@ The tables below summarize the BLEU scores obtained for each model across the te
 Internship_Project/
 ├── 01_Reports/
 │   ├── Fortnightly_Reports/
-│   │   └── Fortnight_1_2025-05-10_to_2025-05-24.pdf
+│   │   └── First_two_week_Project.pdf
 │   └── Final_Report/
 ├── 02_Cryptography_Research/
 │   ├── Concepts_Notes.md
